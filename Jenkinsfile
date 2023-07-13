@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                echo 'Buildingggg..'
+                echo 'Building..'
 		sh '/usr/share/maven/bin/mvn package'
             }
         }
